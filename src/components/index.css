@@ -1,0 +1,28 @@
+.line-chart {
+  margin-top: 2rem;
+}
+.apexcharts-tooltip {
+    margin-top: -30px;
+    background-color: #12fda0 !important;
+    font-size: 12px !important; 
+    font-weight: bold !important;
+  }
+
+  .apexcharts-tooltip-title {
+    color: #ff0000 !important; 
+  }
+  
+  .apexcharts-tooltip .apexcharts-tooltip-text-value {
+    color: #00ff00 !important; 
+  }
+
+  .custom-tooltip {
+    padding: 10px;
+    color: black;
+    font-size: 15px
+  }
+  
+  .apexcharts-gridlines-horizontal .apexcharts-gridline:last-child {
+    display: none;
+ }
+
