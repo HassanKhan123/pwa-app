@@ -542,7 +542,7 @@ const Home = () => {
         }}
       >
         {showPopUp && <HelloPopUp setShowPopUp={setShowPopUp} />}
-        {/* {!isLoggedIn && <SignInPopUp setShowPopUp={setShowPopUp} />} */}
+        {!isLoggedIn && <SignInPopUp setShowPopUp={setShowPopUp} />}
         {showError == "Oops" && <OopsPopUp />}
         {showError == "Credit" && <OutOfCreditsPopUp />}
         {!boxes.length ? (
